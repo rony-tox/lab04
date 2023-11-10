@@ -1,11 +1,10 @@
 ﻿#include <iostream>
 #include <string>
-using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-    string name;
-    cin >> name;
-    cout << "Hello to dear " << name << "!" << endl;
+    std::cout << "Hello World!\n";
+    std::string name;
+    std::cin >> name;
+    std::cout << "Hello to dear " << name << "!" << std::endl;
 }
